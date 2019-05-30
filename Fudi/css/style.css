@@ -1,0 +1,101 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.first-section {
+    background: url('../images/first-section-bg.jpg') center center no-repeat;
+    height: 880px;
+    background-size: cover;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    margin-left: 15px;
+    list-style: none;
+}
+
+.menu ul li:first-of-type {
+    margin-left: 0;
+}
+
+.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.menu-icon {
+    font-size: 16px;
+}
+
+
+@media (max-width: 992px) {
+    .menu ul li {
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+
+    .menu ul li a {
+        font-size: 18px;
+    }
+}
+
+
+
+.block-start {
+
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+
+}
+
+
+.center-1 {
+
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    color:white;
+    font-size: 36px;
+
+}
+.center-2 {
+font-family: Lato;
+color:wheat;
+font-size: 100px;
+}
+
+.center-3 {
+    line-height: 40px;
+    width: 200px;
+    height: 50px;
+    font-family: Lato;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    border: 1px solid #fff;
+    background: transparent;
+    border-radius: 10px;
+    text-align: center;
+    
+
+}
+.center-3 a {
+    text-decoration: none;
+    color: white;
+
+}
+.center-3 a:hover {
+    text-decoration: none;
+}
