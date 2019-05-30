@@ -71,6 +71,11 @@ justify-content: center;
     text-align: center;
 
 }
+.center h1 {
+
+    margin: 0
+
+}
 .center-2 {
 font-family: Lato;
 color:wheat;
@@ -78,26 +83,43 @@ font-size: 100px;
 text-align: center;
 }
 
+.center h2 {
+
+    margin: 0
+
+}
+
 .center-3 {
-    line-height: 40px;
+    line-height: 45px;
    
     font-family: Lato;
     font-weight: bold;
     font-size: 18px;
     color: white;
-    border: 1px solid #fff;
+   
     background: transparent;
-    border-radius: 10px;
-    display: inline-block;
+   
     text-align: center;
 
 }
+
+.center h3 {
+
+    margin: 0 0
+
+}
+
+
 .center-3 a {
+    display: inline-block;
     width: 200px;
     height: 50px;
     text-align: center;
     text-decoration: none;
     color: white;
+    border: 1px solid #fff;
+    border-radius: 10px;
+   
 
 }
 .center-3 a:hover {
