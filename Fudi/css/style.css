@@ -68,18 +68,19 @@ justify-content: center;
     font-weight: bold;
     color:white;
     font-size: 36px;
+    text-align: center;
 
 }
 .center-2 {
 font-family: Lato;
 color:wheat;
 font-size: 100px;
+text-align: center;
 }
 
 .center-3 {
     line-height: 40px;
-    width: 200px;
-    height: 50px;
+   
     font-family: Lato;
     font-weight: bold;
     font-size: 18px;
@@ -87,11 +88,14 @@ font-size: 100px;
     border: 1px solid #fff;
     background: transparent;
     border-radius: 10px;
+    display: inline-block;
     text-align: center;
-    
 
 }
 .center-3 a {
+    width: 200px;
+    height: 50px;
+    text-align: center;
     text-decoration: none;
     color: white;
 
