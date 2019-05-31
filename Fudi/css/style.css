@@ -69,11 +69,13 @@ justify-content: center;
     color:white;
     font-size: 36px;
     text-align: center;
+    margin-top: 270px;
+    padding: 0;
 
 }
-.center h1 {
+.center-1 h1 {
 
-    margin: 0
+    margin: 0 ;
 
 }
 .center-2 {
@@ -81,15 +83,18 @@ font-family: Lato;
 color:wheat;
 font-size: 100px;
 text-align: center;
+margin-top: 15px;
+padding: 0;
 }
 
-.center h2 {
+.center-2 h2 {
 
-    margin: 0
+    margin: 0;
 
 }
 
 .center-3 {
+    padding: 0;
     line-height: 45px;
    
     font-family: Lato;
@@ -100,12 +105,32 @@ text-align: center;
     background: transparent;
    
     text-align: center;
+    margin-top: 40px;
 
 }
 
-.center h3 {
+.center-4 h4 {
 
-    margin: 0 0
+    font-family: Lato;
+    font-weight: normal;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+
+
+}
+.center-4 h4 span {
+
+    font-weight: bold;
+
+}
+
+
+
+.center-3 h3 {
+
+    margin: 0;
 
 }
 
@@ -124,4 +149,35 @@ text-align: center;
 }
 .center-3 a:hover {
     text-decoration: none;
+}
+
+
+.col4 h1 {
+
+
+font-size: 14px;
+text-align: center;
+
+}
+
+.content-menu h1 {
+
+    text-align: center;
+    font-size: 14px;
+
+
+
+}
+.content-menu p {
+
+text-align: justify;
+
+}
+.content-menu {
+    margin: 100px;
+    justify-content: space-around;
+    
+
+
+
 }
