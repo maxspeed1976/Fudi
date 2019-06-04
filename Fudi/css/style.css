@@ -4,6 +4,10 @@ body {
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 .first-section {
     background: url('../images/first-section-bg.jpg') center center no-repeat;
     height: 880px;
@@ -122,7 +126,7 @@ padding: 0;
 }
 .center-4 h4 span {
 
-    font-weight: bold;
+    font-weight: 800;
 
 }
 
@@ -176,8 +180,18 @@ text-align: justify;
 .content-menu {
     margin: 100px;
     justify-content: space-around;
-    
 
 
+}
+.content-menu div {
+
+display: flex;
+justify-content: center;
+
+}
+
+.content-menu h1 a:hover {
+
+border-bottom: 1px solid #f57365
 
 }
