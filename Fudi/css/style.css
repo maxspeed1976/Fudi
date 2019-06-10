@@ -217,4 +217,8 @@ border-bottom: 1px solid #f57365
     text-align: center;
     color: white;
  }
+ .slider row{
+
+    height: 100%;
+ }
 
