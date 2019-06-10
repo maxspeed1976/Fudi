@@ -178,7 +178,7 @@ text-align: justify;
 
 }
 .content-menu {
-    margin: 100px;
+    /*margin: 100px;*/
     justify-content: space-around;
 
 
@@ -195,3 +195,50 @@ justify-content: center;
 border-bottom: 1px solid #f57365
 
 }
+
+.features {
+    margin: 50px auto;
+}
+
+
+
+.slider {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background: url('../images/background.png') center center no-repeat;
+    height: 450px;
+    background-size: cover;
+   
+   
+  }
+  .slider p {
+display: flex;
+
+color: white;
+
+
+  }
+
+  .slider content {
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+  }
+  .slider col-12 {
+
+display: flex;
+justify-content:center;
+align-items: center;
+  }
+
+  .slider img {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
