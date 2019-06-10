@@ -203,42 +203,18 @@ border-bottom: 1px solid #f57365
 
 
 .slider {
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
+   
+    
     background: url('../images/background.png') center center no-repeat;
     height: 450px;
     background-size: cover;
    
    
   }
-  .slider p {
-display: flex;
-
-color: white;
+ .slider p {
 
 
-  }
+    text-align: center;
+    color: white;
+ }
 
-  .slider content {
-
-display: flex;
-justify-content: center;
-align-items: center;
-
-
-  }
-  .slider col-12 {
-
-display: flex;
-justify-content:center;
-align-items: center;
-  }
-
-  .slider img {
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
