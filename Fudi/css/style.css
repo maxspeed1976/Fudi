@@ -203,22 +203,24 @@ border-bottom: 1px solid #f57365
 
 
 .slider {
-   
-    
-    background: url('../images/background.png') center center no-repeat;
-    height: 450px;
-    background-size: cover;
-   
-   
-  }
- .slider p {
-
-
-    text-align: center;
+  
+    background: url('../images/background.png') ;
+    height: 500px;
+    width: 100%;
     color: white;
- }
- .slider row{
+   
+    /* background-color: #f57365; */
+  
+  }
+ 
 
-    height: 100%;
- }
-
+ 
+.block-1 {
+margin-top: 150px;
+    
+   
+}
+ 
+.block-2 p {
+    text-align: center;
+}
